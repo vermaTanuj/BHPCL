@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="15dp"
+    app:cardCornerRadius="20dp"
+    android:layout_margin="20dp"
+    android:backgroundTint="#efefef"
+    android:layout_height="wrap_content">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="vertical"
+        >
+
+
+        <!--Product name-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Product name:-  "
+                android:textSize="24dp"
+                android:textColor="@color/black"
+                style="bold"
+                ></TextView>
+            <TextView
+                android:id="@+id/textproductname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24dp"
+                android:textColor="@color/black"
+                style="bold"
+                ></TextView>
+        </LinearLayout>
+
+        <!--Unit cost-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Unit cost:-  "
+                android:textSize="24dp"
+                android:textColor="@color/black"
+                style="bold"
+                ></TextView>
+            <TextView
+                android:id="@+id/textunitcost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="24dp"
+                android:textColor="@color/black"
+                style="bold"
+                ></TextView>
+        </LinearLayout>
+
+        <!--quontity-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="quontity:-  "
+                android:textSize="24dp"
+                android:textColor="@color/black"
+                style="bold"
+                ></TextView>
+            <TextView
+                android:id="@+id/textquontity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24dp"
+                android:textColor="@color/black"
+                style="bold"
+                ></TextView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
